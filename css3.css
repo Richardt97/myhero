@@ -2,11 +2,7 @@
 /* CSS Document */
 /* Overlays */
 *{box-sizing:border-box}
-#container {
-	background-image: url()
-}
-header h1 {
-	
+#container header h1 {
 }
 
 	body{
@@ -28,7 +24,14 @@ nav{
 			margin-top:5px;
 			}
 #picture{
+	background-color: brown;
 	width:100%;
-	background-image:url("pictures/my-hero-academia-1-700x280.jpg");
 	height:400px;
 }
+article{
+	
+}
+footer{
+	background-image: url("pictures/s902836036556817015_p357_i6_w512.jpeg");
+	width: 100%;
+	height: 150px;}
