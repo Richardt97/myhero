@@ -3,20 +3,39 @@
 <head>
 <meta charset="utf-8">
 <title>My Hero Academia Booth</title>
+<link href="css2.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( ".widget input[type=submit], .widget a, .widget button" ).button();
+    $( "button, input, a" ).click( function( event ) {
+      event.preventDefault();
+    } );
+  } );
+  </script>
 </head>
-<link href="css2.css">
 <body>
 	<div id="container">
 		<header><h1>My Hero Academia</h1></header>
 		<nav>
-		<a href="index.html">Home</a>   -
-		<a href="characters.html">Characters</a>
-		Story   -
+			<button><a href="index.html">Home</a></button>
+		<button><a href="characters.html">Characters</a></button>
+		Story
 		Contacts
 			
 		</nav>
 		<section id="picture">
-			<article></article>
+			<article>
+		    <img src="pictures/allmight.png" width="98" height="98" alt=""/> All might</article>
+			- Toshinori Yagi, more commonly known by his hero name, All Might, is the tritagonist of My Hero Academia. All Might is the former No. 1 Hero who bore the title of the world's Symbol of Peace. He teaches Foundational Hero Studies at U.A. High School.
+			<br>
+			<a2><img src="pictures/izuku.png" width="98" height="98" alt=""/>Izuku Midoriya</a2>
+			- Though born without a Quirk, Izuku manages to catch the attention of the legendary hero All Might due to his innate heroism and has since become his close pupil as well as a student in Class 1-A at U.A. High School. All Might passed on his Quirk to Izuku, making him the ninth holder of One For All.
+			<br><br>
+			For more info go to: <a href="https://bokunoheroacademia.fandom.com/wiki/My_Hero_Academia_Wiki">my hero wiki</a>
 		</section>
 		<footer></footer>
 	</div>

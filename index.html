@@ -3,7 +3,19 @@
 <head>
 <meta charset="utf-8">
 <title>My Hero Academia Booth</title>
-	
+	<link href="css.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( ".widget input[type=submit], .widget a, .widget button" ).button();
+    $( "button, input, a" ).click( function( event ) {
+      event.preventDefault();
+    } );
+  } );
+  </script>
 	<link href="css.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -11,16 +23,19 @@
 	<div id="container">
 		<header><h1>My Hero Academia</h1></header>
 		<nav>
-		Home   -
-		<a href="characters.html">Characters</a>   -
-		Story   -
+		<button>Home</button>
+		<button><a href="characters.html">Characters</a></button>
+		Story
 		Contacts
 			
-		</nav>
+	  </nav>
 		<section id="picture">
-			<article></article>
+			<article><iframe width="450" height="300" src="https://www.youtube.com/embed/Q7w5IMyJ3pM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+			</article>
 		</section>
 		<footer></footer>
+		
 	</div>
 </body>
 </html>

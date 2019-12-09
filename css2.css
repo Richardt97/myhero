@@ -24,6 +24,11 @@ nav{
 			margin-top:5px;
 			}
 #picture{
+	background-color: brown;
 	width:100%;
 	height:400px;
 }
+footer{
+	background-image: url("pictures/s902836036556817015_p357_i6_w512.jpeg");
+	width: 100%;
+	height: 150px;}
