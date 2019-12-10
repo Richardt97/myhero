@@ -2,13 +2,12 @@
 /* CSS Document */
 /* Overlays */
 *{box-sizing:border-box}
-#container header h1 {
-}
-
-	body{
+body{
+	background-image:url("pictures/Wiki-background.jpg");
+	background-position: center;
 }
 #container{
-	width: 100%;
+	width: 50%;
 	margin:0 auto;
 	
 }
