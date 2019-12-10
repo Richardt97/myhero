@@ -24,7 +24,7 @@ nav{
 			margin-top:5px;
 			}
 #picture{
+	background-color: brown;
 	width:100%;
-	background-image:url("pictures/my-hero-academia-1-700x280.jpg");
 	height:400px;
 }
